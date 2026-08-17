@@ -4,6 +4,8 @@
 
 A Claude skill: five separate advisor workstreams, an adversarial review pass, and a verdict that names its own tipping point and next step.
 
+→ [**Download `council.skill`**](https://github.com/smplx-c/council/releases/latest/download/council.skill) for Cowork and the Claude app, or clone the folder for Claude Code — see [Installation](#installation).
+
 ---
 
 ## The problem it solves
