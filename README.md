@@ -52,14 +52,7 @@ The skill does not replace domain expertise. It does not replace data you don't 
 git clone https://github.com/smplx-c/council.git ~/.claude/skills/council
 ```
 
-**Cowork / Claude Desktop** — build a `.skill` package and save it from the chat:
-
-```bash
-git clone https://github.com/smplx-c/council.git
-cd council && zip -r ../council.skill . -x '.git/*'
-```
-
-Drop the resulting file into a Cowork chat; the file card shows **Save skill**, provided your organization permits skill creation.
+**Cowork / Claude Desktop** — download `council.skill` from the [latest release](https://github.com/smplx-c/council/releases/latest) and drop it into a chat. The file card shows **Save skill**, provided your organization permits skill creation.
 
 ---
 
