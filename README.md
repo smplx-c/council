@@ -58,18 +58,22 @@ git clone https://github.com/smplx-c/council.git ~/.claude/skills/council
 
 ## Invoking it
 
-The skill triggers on:
+Call it directly with the slash command and put the case after it:
+
+```
+/council Should we migrate to a new database now or after launch?
+Two engineers, no dedicated DBA, launch in eight weeks.
+```
+
+This is the reliable path: nothing has to be recognized, and the language you write in makes no difference.
+
+It also fires on its own, without the slash command, when you open with one of these:
 
 > "ask the council" · "council" · "stress-test this" · "poke holes in this" · "what am I missing" · "talk me out of this" · "A or B?"
 
-The triggers are registered in English only. Whether equivalents in other languages fire reliably is untested — the safe pattern is to open with `Ask the council:` and write the rest in whatever language you like.
+Those phrases are registered in English only, and implicit triggering is a judgment call rather than a guarantee. If you write in another language — or simply want to be sure — use `/council`.
 
 It works best with context rather than a bare question. Instead of "should I use Postgres?", give it: what you're building, what is already fixed, what bothers you about the plan, and what it would cost to be wrong.
-
-```
-Ask the council: Should we migrate to a new database now or after launch?
-Two engineers, no dedicated DBA, launch in eight weeks.
-```
 
 ```
 Council — A or B? Have the advisor memos rank each other the way Karpathy's
