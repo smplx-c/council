@@ -1,0 +1,15 @@
+# macOS
+.DS_Store
+._*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# Build output
+*.skill
+dist/
+
+# Skill eval workspaces
+*-workspace/
